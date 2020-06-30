@@ -5,9 +5,9 @@ namespace Test.Helper
     public static class JsonConverter
     {
         //Burada 
-        public static T ConvertJson<T>(string content)
+        public static T ConvertJson<T>(string contents)
         {
-            return JsonConvert.DeserializeObject<T>(content);
+            return JsonConvert.DeserializeObject<T>(contents);
             //Serialize ettiğimiz nesneyi orjinal haline geitrmemizi sağlıyoruz.
         }
 

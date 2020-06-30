@@ -29,7 +29,7 @@ namespace Test.Client
                 var ResponseMessage = client.Execute<T>(request);
 
                 return ResponseMessage;
-               //Dönen status kodu
+               // status kodu
             }
             catch
             {
@@ -46,7 +46,7 @@ namespace Test.Client
                 var ResponseMessage = client.Execute<T>(request);
 
                 return ResponseMessage;
-               //Dönen status kodu
+               // status kodu
             }
             catch
             {
